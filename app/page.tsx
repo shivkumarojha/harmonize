@@ -1,5 +1,11 @@
+"use client"
+import Appbar from "@/components/Appbar";
+
 export default function Home() {
   return (
-  <div>Collaborative Music</div>
+    <div>
+      <div>Collaborative Music</div>
+      <Appbar />
+    </div>
   );
 }
