@@ -11,8 +11,8 @@ export default function Appbar() {
       {session?.data?.user && <button onClick={() => signOut()} className="border-2 rounded-2xl p-4"> Logout</button>
       }
 
-      {!session.data?.user && <button onClick={() => signIn('google')} className="border-2 rounded-2xl p-4"> Sign In with Google</button>
-      }
+      {!session.data?.user &&       <button onClick={() => signIn('google')} className="border-2 rounded-2xl p-4"> Sign In with Google</button>
+ }
     </div>
 
   )
